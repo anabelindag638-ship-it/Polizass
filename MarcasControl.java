@@ -71,7 +71,7 @@ public class MarcasControl {
             }
         });
 
-        // Evento para Eliminar
+    
         mv.btn_d.addActionListener(e -> {
             int fila = mv.tabla.getSelectedRow();
             if (fila >= 0) {
